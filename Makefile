@@ -1,20 +1,3 @@
-# set up virtual environment for project
-env/activate:
-	@virtualenv -p python3 .venv
-	@. ./.venv/bin/activate
-
-# update project dependencies 
-env/update: env/activate
-	@pip install -r ./src/requirements.txt
-
-# remove virtual environment
-env/clean:
-	@rm -rf ./.venv
-
-# deactivate virtual environment
-env/deactivate:
-	@deactivate
-
 # execute testsuite
 test:
 	@pytest .
