@@ -1,6 +1,6 @@
-# <application>
+# [application]
 
-<application> is a <application-type> to <problem(s)-that-application-solves>.
+[application] is a [application-type] to [problem(s)-that-application-solves].
 
 
 ## Prerequisites
