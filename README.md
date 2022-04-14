@@ -1,6 +1,6 @@
 # <application>
 
-Connection is a RESTful api built with FastApi to help manage personal and professional connections.
+<application> is a <application-type> to <problem(s)-that-application-solves>.
 
 
 ## Prerequisites
@@ -21,24 +21,6 @@ Connection is a RESTful api built with FastApi to help manage personal and profe
 
 ## Development
 
-
-### Environment
-
-Manage your local environment:
-
-```shell
-# initialise virtual environment
-make env/init
-
-# update dependencies in virtual environment
-make env/update
-
-# deactivate virtual environment
-make env/deactivate
-
-# remove local environment
-make env/clean
-```
 
 ### Testing
 
